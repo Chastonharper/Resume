@@ -1,6 +1,4 @@
-let name = 'Name: Chaston Harper'
-let upper = name.charAt(0).toUpperCase() + name.slice(1);
-console.log(upper)
+console.log('Name: ' + '' + 'Chaston Harper'.toUpperCase());
 
 function displayPosition(company, title, description) {
     return company
