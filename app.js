@@ -16,11 +16,24 @@ let description = displayPosition ('Description: I like pie');
 console.log(description);
 
 console.log('My Interests:');
-
 let myInterests = {
-    tv: 'Fall TV',
-    cars: 'locomotives',
-    awkward: 'observing awkward situations',
+    games: 'video games',
+    drawing: 'digital art',
+    reading: 'fantasy novels',
+    pizza: 'pizza',
 };
 
-console.log(myInterests.tv);
+console.log(myInterests.games);
+console.log(myInterests.drawing);
+console.log(myInterests.reading);
+console.log(myInterests.pizza);
+
+console.log('My Previous Experience:');
+let previousExperiences = {
+    college: 'Degree in Visual Media from Auburn University',
+    editing: 'Working as a video editor for a motivational speaker',
+    internship: 'Interning in the media division at Greater Shiloh Missionary Baptist Church',
+};
+console.log(previousExperiences.college);
+console.log(previousExperiences.editing);
+console.log(previousExperiences.internship);
